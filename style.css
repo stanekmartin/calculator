@@ -1,0 +1,119 @@
+button {
+    background-color: #FFFFCC;
+    border: 0px;
+}
+
+#b1 {
+    position: absolute;
+    top: 117px;
+    left: 48px;
+    border-radius: 4px;
+}
+
+#b2 {
+    position: absolute;
+    top: 117px;
+    left: 71px;
+    border-radius: 4px;
+}
+
+#b3 {
+    position: absolute;
+    top: 117px;
+    left: 94px;
+    border-radius: 4px;
+}
+
+#b4 {
+    position: absolute;
+    top: 140px;
+    left: 48px;
+    border-radius: 4px;
+}
+
+#b5 {
+    position: absolute;
+    top: 140px;
+    left: 71px;
+    border-radius: 4px;
+}
+
+#b6 {
+    position: absolute;
+    top: 140px;
+    left: 94px;
+    border-radius: 4px;
+}
+
+#b9 {
+    position: absolute;
+    top: 163px;
+    left: 94px;
+    border-radius: 4px;
+}
+
+#b8 {
+    position: absolute;
+    top: 163px;
+    left: 71px;
+    border-radius: 4px;
+}
+
+#b7 {
+    position: absolute;
+    top: 163px;
+    left: 48px;
+    border-radius: 4px;
+}
+
+#b0 {
+    position: absolute;
+    top: 186px;
+    left: 71px;
+    border-radius: 4px;
+}
+
+#b- {
+    position: absolute;
+    top: 140px;
+    left: 118px;
+    width: 19.41px;
+    border-radius: 4px;
+}
+
+#b10 {
+    position: absolute;
+    top: 163px;
+    left: 118px;
+    border-radius: 4px;
+}
+
+#b11 {
+    position: absolute;
+    top: 117px;
+    left: 118px;
+    border-radius: 4px;
+}
+
+#output {
+    position: absolute;
+    left: 48px;
+    top: 70px;
+    background-color: white;
+    width: 60px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: thin;
+}
+
+div {
+    position: absolute;
+    left: 40px;
+    top: 73px;
+    height: 135px;
+    width: 105px;
+    background-color: #BCA046;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+}
