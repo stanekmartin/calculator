@@ -117,3 +117,15 @@ div {
     border-style: solid;
     border-width: thin;
 }
+#b12 {
+    position: absolute;
+    top: 186px;
+    left: 94px;
+    border-radius: 4px;
+}
+#b13 {
+    position: absolute;
+    top: 186px;
+    left: 118px;
+    border-radius: 4px;
+}

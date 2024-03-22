@@ -4,7 +4,7 @@ po2=9999;
 
 function bu1(){
 
-    if (po2==='1' || po2==='+') {
+    if (po2==='1' || po2==='+' || po2==='2' || po2==='3') {
         po3=1;
     
     } else{
@@ -13,7 +13,7 @@ function bu1(){
     
     };
 function bu2(){
-    if (po2==='1'|| po2==='+') {
+    if (po2==='1'|| po2==='+' || po2==='2' || po2==='3') {
         po3=2;
         
     } else{
@@ -21,7 +21,7 @@ function bu2(){
     };
 };
 function bu3(){
-    if (po2==='1' || po2==='+') {
+    if (po2==='1' || po2==='+' || po2==='2' || po2==='3') {
         po3=3;
         
     } else{
@@ -29,7 +29,7 @@ function bu3(){
     };
 };
 function bu4(){
-    if (po2==='1' || po2==='+') {
+    if (po2==='1' || po2==='+' || po2==='2' || po2==='3') {
         po3=4;
         
     } else{
@@ -37,7 +37,7 @@ function bu4(){
     };  
 };
 function bu5(){
-    if (po2==='1' || po2==='+') {
+    if (po2==='1' || po2==='+' || po2==='2' || po2==='3') {
         po3=5;
         
     } else{
@@ -45,7 +45,7 @@ function bu5(){
     };
 };
 function bu6(){
-    if (po2==='1' || po2==='+') {
+    if (po2==='1' || po2==='+' || po2==='2' || po2==='3') {
         po3=6;
         
     } else{
@@ -53,7 +53,7 @@ function bu6(){
     };
 };
 function bu7(){
-    if (po2==='1' || po2==='+') {
+    if (po2==='1' || po2==='+' || po2==='2' || po2==='3') {
         po3=7;
         
     } else{
@@ -61,7 +61,7 @@ function bu7(){
     };
 };
 function bu8(){
-    if (po2==='1' || po2==='+') {
+    if (po2==='1' || po2==='+' || po2==='2' || po2==='3') {
         po3=8;
         
     } else{
@@ -69,7 +69,7 @@ function bu8(){
     };
 };
 function bu9(){
-    if (po2==='1' || po2==='+') {
+    if (po2==='1' || po2==='+' || po2==='2' || po2==='3') {
         po3=9;
         
     } else{
@@ -77,7 +77,7 @@ function bu9(){
     };
 };
 function bu0(){
-    if (po2==='1' || po2==='+') {
+    if (po2==='1' || po2==='+' || po2==='2' || po2==='3') {
         po3=0;
         
     } else{
@@ -96,6 +96,15 @@ function zmacknutím() {
     po4 = po1 - po3;
     document.getElementById("output").innerHTML = po4;
 };
+function zmacknutík() {
+    po4 = po1 * po3;
+    document.getElementById("output").innerHTML = po4;
+};
+function zmacknutíd() {
+    po4 = po1 / po3;
+    document.getElementById("output").innerHTML = po4;
+};
+
 setInterval(function() {
     console.log(po3);
     console.log(po1);
